@@ -13,10 +13,10 @@ const connect = function () {
   });
   conn.on('connect', () => {
     conn.write("Name: LSP")
-    conn.write("Move: up")
     //conn.write("Move: up")
     
-  })
+  });
+ 
  
   // interpret incoming data as text
   conn.setEncoding("utf8");
