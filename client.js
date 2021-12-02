@@ -13,6 +13,7 @@ const connect = function () {
   });
   conn.on('connect', () => {
     conn.write("Name: LSP")
+    conn.write("Move: up")
     //conn.write("Move: up")
     
   })
