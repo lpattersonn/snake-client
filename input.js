@@ -9,6 +9,7 @@ const setupInput = function (conn) {
     if (data === '\u0003') {
       process.exit();
     }
+    connection.write("Say: This is Leshan")
     if (data === 'w') {
       console.log("Move: up");
       connection.write("Move: up");
